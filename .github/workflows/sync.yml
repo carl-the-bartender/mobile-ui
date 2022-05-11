@@ -2,7 +2,7 @@ name: Sync Files
 on:
   push:
     branches:
-      - test_repo_file_sync_action
+      - main
   workflow_dispatch:
 jobs:
   sync:
