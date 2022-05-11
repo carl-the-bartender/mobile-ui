@@ -7,10 +7,10 @@ import Version from './../../../src/components/Version'
 
 storiesOf('Screen', module)
     .add('splash', () => (
-        <SplashScreen>
-            <Logo />
-            <Version />
-        </SplashScreen>
+        <SplashScreen
+            icon={<Logo />}
+            version="v0.1.0"
+        />
     ))
     .add('landing', () => (
         <Text>Landing</Text>

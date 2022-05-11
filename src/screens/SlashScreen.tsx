@@ -1,12 +1,13 @@
 import { Text } from 'react-native';
 
 type Props = {
-    children: React.ReactNode;
+    icon: React.ReactNode,
+    version: string
 }
 
-export default ({ children }: Props) => (
+export default ({ icon, version }: Props) => (
     <Text>
-        This is the splash screen
-        {children}
+        {icon}
+        {version}
     </Text>
 )
