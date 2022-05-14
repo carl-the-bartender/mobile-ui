@@ -1,3 +1,0 @@
-carl-the-bartender/poc-mobile-app:
-  - source: src/
-    dest: src/mobile-ui/
