@@ -3,6 +3,8 @@
 
 import { getStorybookUI, configure, addDecorator } from '@storybook/react-native';
 import { withKnobs } from '@storybook/addon-knobs';
+import { TailwindProvider } from 'tailwind-rn';
+import utilities from './../tailwind.json';
 
 import './rn-addons';
 
